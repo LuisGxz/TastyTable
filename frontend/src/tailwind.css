@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* ── Design tokens (mockup 13-tastytable · tokens 13) — warm & appetising ──── */
+@theme {
+  --font-serif3: "Lora", Georgia, serif;
+  --font-body: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --color-terra-600: #c25e3f;
+  --color-terra-500: #ce6e4e;
+  --color-terra-100: #f8e5dc;
+  --color-wine-800: #6e2b35;
+  --color-wine-900: #54212a;
+  --color-creamy-50: #fbf6ee;
+  --color-creamy-100: #f5eddf;
+  --color-creamy-200: #e9dcc6;
+  --color-cocoa-900: #3a2c24;
+  --color-cocoa-600: #6b5a4e;
+  --color-cocoa-400: #9c8b7e;
+  --color-avail: #4f8a5b;
+}
+
+/* Tailwind's preflight resets borders/box-sizing for light-DOM elements;
+   Ionic components live in shadow DOM and are unaffected. */
+@layer components {
+  .serif3 { font-family: var(--font-serif3); }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+/* Warm food-photo placeholders standing in for real imagery (mockup f-1…f-4). */
+.f-1 { background: linear-gradient(140deg, #ce6e4e 0%, #8c3d28 60%, #54212a 100%); }
+.f-2 { background: linear-gradient(140deg, #d9a441 0%, #a4642b 60%, #54331c 100%); }
+.f-3 { background: linear-gradient(140deg, #7e9b68 0%, #4f6b41 60%, #2c3d25 100%); }
+.f-4 { background: linear-gradient(140deg, #b0584c 0%, #6e2b35 70%, #42191f 100%); }

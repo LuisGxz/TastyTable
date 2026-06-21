@@ -1,0 +1,43 @@
+// TastyTable Ionic theme — warm "appetising" palette (tokens 13).
+:root {
+  --ion-font-family: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  // Primary = terracotta
+  --ion-color-primary: #c25e3f;
+  --ion-color-primary-rgb: 194, 94, 63;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #ab5237;
+  --ion-color-primary-tint: #c86e52;
+
+  // Secondary = wine
+  --ion-color-secondary: #6e2b35;
+  --ion-color-secondary-rgb: 110, 43, 53;
+  --ion-color-secondary-contrast: #fbf6ee;
+  --ion-color-secondary-contrast-rgb: 251, 246, 238;
+  --ion-color-secondary-shade: #61262e;
+  --ion-color-secondary-tint: #7d4049;
+
+  // Success = availability green
+  --ion-color-success: #4f8a5b;
+  --ion-color-success-rgb: 79, 138, 91;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #467a50;
+  --ion-color-success-tint: #61966b;
+
+  // Surfaces
+  --ion-background-color: #fbf6ee;
+  --ion-background-color-rgb: 251, 246, 238;
+  --ion-text-color: #3a2c24;
+  --ion-text-color-rgb: 58, 44, 36;
+
+  --ion-toolbar-background: #fbf6ee;
+  --ion-toolbar-color: #3a2c24;
+  --ion-tab-bar-background: #fbf6ee;
+  --ion-tab-bar-color: #9c8b7e;
+  --ion-tab-bar-color-selected: #c25e3f;
+  --ion-item-background: #ffffff;
+
+  --ion-border-color: #e9dcc6;
+}

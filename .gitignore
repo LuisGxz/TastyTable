@@ -1,0 +1,30 @@
+# ── Node ──
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# ── Env / secrets ──
+.env
+.env.local
+*.azure-secrets.local
+
+# ── Angular / Ionic (from F3) ──
+.angular/
+www/
+.ionic/
+
+# ── Playwright (from F7) ──
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# ── Temp / scratch ──
+.smoke/
+shots-*.mjs
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+*.swp

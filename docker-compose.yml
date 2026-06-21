@@ -1,0 +1,16 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: tastytable-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - tastytable-mongo:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  tastytable-mongo:
