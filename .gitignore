@@ -28,3 +28,9 @@ shots-*.mjs
 .DS_Store
 Thumbs.db
 *.swp
+
+backend/dist/
+backend/node_modules/
+frontend/www/
+frontend/node_modules/
+.vercel
